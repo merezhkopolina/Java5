@@ -40,5 +40,8 @@ public class Main {
     } catch (IOException e) {
       System.out.println(e.getMessage());
     }
+
+    TagFrequency tagFrequency = new TagFrequency();
+    tagFrequency.getTags();
   }
 }
