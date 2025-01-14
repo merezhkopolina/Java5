@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 public class TagFrequency {
 
   public String getTags() {
-    String urlString = "https://www.kpi.ua/"; // Replace with the desired URL
+    String urlString = "https://www.kpi.ua/";
     try {
       StringBuilder html = new StringBuilder();
       try (BufferedReader reader = new BufferedReader(new InputStreamReader(new URL(urlString).openStream()))) {
